@@ -1,3 +1,10 @@
+
+
+import java.util.ArrayList;
+import java.security.*;
+import java.util.Scanner;
+import java.math.BigInteger;
+
 /**
  * @author
  * @version
@@ -5,11 +12,6 @@
  * @return
  * @see
  */
-
-import java.util.ArrayList;
-import java.security.*;
-import java.util.Scanner;
-
 public class LearnJava {
 
     public static void main(String[] args) {
@@ -22,19 +24,35 @@ public class LearnJava {
 
         System.out.printf("pi = %.5f", Math.PI);
 
-        Scanner scanner = new Scanner(System.in);
+//        Scanner scanner = new Scanner(System.in);
+//
+//        String name = scanner.next();
+//
+//        //byte numByte = scanner.nextByte();
+//
+//        int numInt = scanner.nextInt();
+//
+//        float numFloat = scanner.nextFloat();
+//
+//        double numDouble = scanner.nextDouble();
+//
+//        boolean bool = scanner.nextBoolean();
 
-        String name = scanner.next();
+        // Deckare a variable using <type> <name>
+        int fooInt;
 
-        byte numByte = scanner.nextByte();
+        int fooInt1, fooInt2, fooInt3;
 
-        int numInt = scanner.nextInt();
+        int varInt = 1;
 
-        float numFloat = scanner.nextFloat();
+        int barInt1, barInt2, barInt3;
+        barInt1 = barInt2 = barInt3 = 1;
 
-        double numDouble = scanner.nextDouble();
+        byte fooByte = 100;
 
-        boolean bool = scanner.nextBoolean();
+
+
+
 
 
     }
